@@ -1,117 +1,51 @@
 import { Fragment } from "react/jsx-runtime";
 
 function ListGroup() {
+  const attiesanas_laiki_salaspils = [
+    "5:45 - 6:15",
+    "6:25 - 6:55",
+    "6:55 - 7:25",
+    "7:30 - 8:00",
+    "8:10 - 8:40",
+    "8:35 - 9:05",
+    "9:00 - 9:30",
+    "9:35 - 10:05",
+    "10:10 - 10:40",
+    "10:35 - 11:05",
+    "11:10 - 11:40",
+    "12:10 - 12:40",
+    "13:10 - 13:40",
+    "13:40 - 14:10",
+    "14:40 - 15:10",
+    "15:40 - 16:10",
+    "16:45 - 17:15",
+    "17:30 - 18:00",
+    "17:50 - 18:20",
+    "18:10 - 18:40",
+    "18:50 - 19:20",
+    "19:10 - 19:40",
+    "20:00 - 20:30",
+    "21:25 - 21:55",
+  ];
   return (
     <Fragment>
       <div className="list-group">
-        <a href="#" className="list-group-item list-group-item-action">
-          <div className="d-flex w-100 justify-content-between">
-            <h5 className="mb-1">05:45 - 06:15</h5>
-            <small className="text-body-secondary">30min</small>
-          </div>
-          <small className="text-body-secondary">
-            Maršruts: Salaspils (Skola) - Rīga
-          </small>
-        </a>
-        <a href="#" className="list-group-item list-group-item-action">
-          <div className="d-flex w-100 justify-content-between">
-            <h5 className="mb-1">06:25 - 06:55</h5>
-            <small className="text-body-secondary">30min</small>
-          </div>
-          <small className="text-body-secondary">
-            Maršruts: Salaspils (Skola) - Rīga
-          </small>
-        </a>
-        <a href="#" className="list-group-item list-group-item-action">
-          <div className="d-flex w-100 justify-content-between">
-            <h5 className="mb-1">06:55 - 07:25</h5>
-            <small className="text-body-secondary">30min</small>
-          </div>
-          <small className="text-body-secondary">
-            Maršruts: Salaspils (Skola) - Rīga
-          </small>
-        </a>
-        <a href="#" className="list-group-item list-group-item-action">
-          <div className="d-flex w-100 justify-content-between">
-            <h5 className="mb-1">07:30 - 08:00</h5>
-            <small className="text-body-secondary">30min</small>
-          </div>
-          <small className="text-body-secondary">
-            Maršruts: Salaspils (Skola) - Rīga
-          </small>
-        </a>
-        <a href="#" className="list-group-item list-group-item-action">
-          <div className="d-flex w-100 justify-content-between">
-            <h5 className="mb-1">08:10 - 08:40</h5>
-            <small className="text-body-secondary">30min</small>
-          </div>
-          <small className="text-body-secondary">
-            Maršruts: Salaspils (Skola) - Rīga
-          </small>
-        </a>
-        <a href="#" className="list-group-item list-group-item-action">
-          <div className="d-flex w-100 justify-content-between">
-            <h5 className="mb-1">06:25 - 06:55</h5>
-            <small className="text-body-secondary">30min</small>
-          </div>
-          <small className="text-body-secondary">
-            Maršruts: Salaspils (Skola) - Rīga
-          </small>
-        </a>
-        <a href="#" className="list-group-item list-group-item-action">
-          <div className="d-flex w-100 justify-content-between">
-            <h5 className="mb-1">08:35 - 09:05</h5>
-            <small className="text-body-secondary">30min</small>
-          </div>
-          <small className="text-body-secondary">
-            Maršruts: Salaspils (Skola) - Rīga
-          </small>
-        </a>
-        <a href="#" className="list-group-item list-group-item-action">
-          <div className="d-flex w-100 justify-content-between">
-            <h5 className="mb-1">09:00 - 09:30</h5>
-            <small className="text-body-secondary">30min</small>
-          </div>
-          <small className="text-body-secondary">
-            Maršruts: Salaspils (Skola) - Rīga
-          </small>
-        </a>
-        <a href="#" className="list-group-item list-group-item-action">
-          <div className="d-flex w-100 justify-content-between">
-            <h5 className="mb-1">09:35 - 10:05</h5>
-            <small className="text-body-secondary">30min</small>
-          </div>
-          <small className="text-body-secondary">
-            Maršruts: Salaspils (Skola) - Rīga
-          </small>
-        </a>
-        <a href="#" className="list-group-item list-group-item-action">
-          <div className="d-flex w-100 justify-content-between">
-            <h5 className="mb-1">10:10 - 10:40</h5>
-            <small className="text-body-secondary">30min</small>
-          </div>
-          <small className="text-body-secondary">
-            Maršruts: Salaspils (Skola) - Rīga
-          </small>
-        </a>
-        <a href="#" className="list-group-item list-group-item-action">
-          <div className="d-flex w-100 justify-content-between">
-            <h5 className="mb-1">10:35 - 11:05</h5>
-            <small className="text-body-secondary">30min</small>
-          </div>
-          <small className="text-body-secondary">
-            Maršruts: Salaspils (Skola) - Rīga
-          </small>
-        </a>
-        <a href="#" className="list-group-item list-group-item-action">
-          <div className="d-flex w-100 justify-content-between">
-            <h5 className="mb-1">11:10 - 11:40</h5>
-            <small className="text-body-secondary">30min</small>
-          </div>
-          <small className="text-body-secondary">
-            Maršruts: Salaspils (Skola) - Rīga
-          </small>
-        </a>
+        <h1 className="virziens-no">No Salaspils</h1>
+        {attiesanas_laiki_salaspils.map((time, index) => (
+          <a
+            key={index}
+            href="#"
+            className="list-group-item list-group-item-action"
+          >
+            <div className="d-flex w-100 justify-content-between">
+              <h5 className="mb-1">{time}</h5>
+              <small className="text-body-secondary">30min</small>
+            </div>
+            <small className="text-body-secondary">
+              Maršruts: Salaspils (Skola) - Rīga
+            </small>
+          </a>
+        ))}
       </div>
     </Fragment>
   );

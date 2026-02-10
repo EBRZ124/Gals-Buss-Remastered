@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #1E1E2E;
+  color: #e1e8ff;
+}
+
+p, h1, h2, h3, h4, h5, a, small{
+  color: #e1e8ff;
+}
+
+.navbar-brand, 
+.nav-link,
+.nav-link.active,
+.nav-item{
+  color: #e1e8ff;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.list-group {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1E1E2E;
+  color: #e1e8ff;
+}
+
+.list-group-item.list-group-item-action{
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #1E1E2E;
+  border:1px;
+  border-color: #e1e8ff;
+  border-radius: 5px;
+  border-style: solid;
+  color: #e1e8ff;
+}
+
+.virziens-no{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  background-color: #1E1E2E;
+  color: #e1e8ff;
+}
+
