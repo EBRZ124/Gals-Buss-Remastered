@@ -16,7 +16,15 @@ p, h1, h2, h3, h4, h5, a, small{
 }
 
 .navbar .nav-link.active,
-.navbar .nav-link:focus {
+.navbar .navbar-brand.nav-link.active,
+.navbar .nav-link:focus,
+.navbar .navbar-brand:focus {
+  color: #c1cffe;
+  background-color: transparent;
+}
+
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
   color: #c1cffe;
   background-color: transparent;
 }

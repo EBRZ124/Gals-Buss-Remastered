@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import { Fragment } from "react/jsx-runtime";
 
 function NavBar() {
@@ -5,9 +6,9 @@ function NavBar() {
     <Fragment>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <NavLink className="navbar-brand" to="/">
             GALS BUSS
-          </a>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -22,14 +23,14 @@ function NavBar() {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">
+                <NavLink className="nav-link" to="/rent">
                   Autobusu noma
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <NavLink className="nav-link" to="/contacts">
                   Kontakti
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item dropdown">
                 <a
@@ -43,14 +44,14 @@ function NavBar() {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Salaspils - Rīga
-                    </a>
+                    <NavLink className="dropdown-item" to="/Salaspils-Riga">
+                      Salaspils – Rīga
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink className="dropdown-item" to="/Riga-Salaspils">
                       Rīga - Salaspils
-                    </a>
+                    </NavLink>
                   </li>
                 </ul>
               </li>

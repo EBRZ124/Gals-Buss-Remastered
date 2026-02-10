@@ -1,6 +1,6 @@
 import { Fragment } from "react/jsx-runtime";
 
-function ListGroup() {
+function SarakstsSalaspilsUzRigu() {
   const attiesanas_laiki_salaspils = [
     "5:45 - 6:15",
     "6:25 - 6:55",
@@ -51,4 +51,4 @@ function ListGroup() {
   );
 }
 
-export default ListGroup;
+export default SarakstsSalaspilsUzRigu;
