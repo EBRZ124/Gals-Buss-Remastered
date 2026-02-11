@@ -1,6 +1,24 @@
-import { Fragment } from "react/jsx-runtime";
+import { Fragment, useEffect, useState } from "react";
 
 function SarakstsSalaspilsUzRigu() {
+  const [currentTime, setCurrentTime] = useState<string>("");
+
+  useEffect(() => {
+    const updateTime = () => {
+      const now = new Date();
+      const formatted = now.toLocaleTimeString("lv-LV", {
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+      });
+      setCurrentTime(formatted);
+    };
+
+    updateTime(); // set immediately
+    const interval = setInterval(updateTime, 1000);
+
+    return () => clearInterval(interval); // cleanup
+  }, []);
   const attiesanas_laiki_riga = [
     "6:25 - 6:55",
     "7:10 - 7:40",
@@ -30,6 +48,7 @@ function SarakstsSalaspilsUzRigu() {
     <Fragment>
       <div className="list-group">
         <h1 className="virziens-no">No Rīgas</h1>
+        <h4 className="tagad-aliks">Pašreizējais laiks: {currentTime}</h4>
         {attiesanas_laiki_riga.map((time, index) => (
           <a
             key={index}
