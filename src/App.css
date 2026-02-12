@@ -13,22 +13,27 @@ p, h1, h2, h3, h4, h5, a, small{
 .navbar.navbar-expand-lg.bg-body-tertiary{
   position: sticky;
   top: 0;
-  overflow: hidden;
   background-color: #11111a;
-  margin-left: auto;
-  margin-right: auto;
   border: 1px #32324d;
   border-style: none none solid none;
   z-index: 100;
+  box-shadow: 0px 0.2px 5px #000000;
 }
 
-.navbar-brand{
-  margin-left: 33.7%;
-}
 .navbar-brand, 
 .nav-link,
 .nav-item{
   color: #e1e8ff;
+  padding: 1px;
+}
+
+.container-fluid{
+  margin-left: 20%;
+}
+
+.navbar-nav{
+  margin-right: 33%;
+  margin-left: auto;
 }
 
 .navbar .nav-link.active,
@@ -86,18 +91,21 @@ p, h1, h2, h3, h4, h5, a, small{
 .list-group-item.list-group-item-action{
   padding: 10px;
   margin-top: 10px;
-  background-color: #1E1E2E;
+  background-color: #28283d;
   border:1px;
   border-color: #e1e8ff;
   border-radius: 5px;
   border-style: solid;
   color: #e1e8ff;
+  box-shadow: 2px 3px #000000;
+  text-shadow: 2px 2px #000000;
 }
 .tagad-aliks{
   margin-left: auto;
   margin-right: auto;
   margin-top: 5px;
   margin-bottom: 0px;
+  text-shadow: 2px 2px #000000;
 }
 .virziens-no{
   margin-left: auto;
@@ -105,6 +113,7 @@ p, h1, h2, h3, h4, h5, a, small{
   padding: 5px;
   background-color: #1E1E2E;
   color: #e1e8ff;
+  text-shadow: 2px 2px #000000;
 }
 
 .virziens-no{
@@ -153,10 +162,18 @@ p, h1, h2, h3, h4, h5, a, small{
 .nomas-virsraksts{
   text-align: center;
   margin-top: 10px;
+  text-shadow: 2px 2px #000000;
+}
+
+.nomas-virsraksts_2{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px #000000;
 }
 
 .carousel.carousel-dark.slide{
-  max-width: 1000px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -181,10 +198,15 @@ p, h1, h2, h3, h4, h5, a, small{
   filter: invert(1);
 }
 
+.col-md-8{
+  background-color: #2b2b42;
+  text-shadow: 2px 2px #000000;
+}
+
 .card.mb-3{
   border: 2px solid #e5e5e5;
   border-radius: 0;
-  max-width: 1000px;
+  max-width: 900px;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;

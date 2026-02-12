@@ -7,8 +7,6 @@ function BusRent() {
       busa_bilde: "/BusuBildes/Setra_415_GT_HD_48.JPG",
       papildus_bilde: "/BudBildesPapildus/Setra_415_GT_HD_Papildus.JPG",
       title: "Setra 415 GT-HD, 48 pasažieru vietas",
-      description:
-        "AC, DVD, video, CD, audio, WC, virtuve, navigācija, galdiņi, mikrofons",
       detailed_description:
         "AC, DVD, video, CD, audio, WC, virtuve, navigācija, galdiņi, mikrofons, barošanas spriegums 220V, RETARDER (kalnu bremzes). Garums: 12.20 m, salona augstums: 2.10 m, augstums: 3.65 m, vietu skaits: 48, attālums starp sēdekļiem: 73 cm, bākas tilpums: 600 l, degvielas patēriņš: 26-30 l/100 km.",
     },
@@ -16,8 +14,6 @@ function BusRent() {
       busa_bilde: "/BusuBildes/Setra_415_HD_44.jpg",
       papildus_bilde: "/BudBildesPapildus/Setra_415_HD_Papildus.jpg",
       title: "Setra 415 HD, 44 pasažieru vietas",
-      description:
-        "AC, audio, DVD, WC, virtuve, 220V, navigācija, galdiņi, mikrofons",
       detailed_description:
         "AC, audio, DVD, WC, virtuve, barošanas spriegums 220 volti, navigācija, galdiņi, mikrofons, RETARDER (kalnu bremzes). Garums: 12.00 m, salona augstums: 2.10 m, augstums: 3.65 m, vietu skaits: 44, attālums starp sēdekļiem: 77 cm, bākas tilpums: 600 l, degvielas patēriņš: 25-30 l/100 km.",
     },
@@ -25,8 +21,6 @@ function BusRent() {
       busa_bilde: "/BusuBildes/Setra_415_HD_49.jpg",
       papildus_bilde: "/BudBildesPapildus/Setra_415_HD_Papildus_2.jpg",
       title: "Setra 415 HD, 49 pasažieru vietas",
-      description:
-        "AC, video, audio, DVD, WC, virtuve, 220V, navigācija, galdiņi, mikrofons",
       detailed_description:
         "AC, video, audio, DVD, video, WC, virtuve, barošanas spriegums 220 volti, navigācija, galdiņi, mikrofons, RETARDER (kalnu bremzes). Garums: 12 m, salona augstums: 2.10 m, augstums: 3.65 m, vietu skaits: 49, attālums starp sēdekļiem: 71 cm, bākas tilpums: 600 l, degvielas patēriņš: 26-30 l/100 km.",
     },
@@ -34,17 +28,13 @@ function BusRent() {
       busa_bilde: "/BusuBildes/Setra_416_GT-HD_53.jpg",
       papildus_bilde: "/BudBildesPapildus/Setra_416_GT_HD_Papildus.jpg",
       title: "Setra 416 GT-HD, 53 pasažieru vietas",
-      description:
-        "AC, DVD, CD, WC, virtuve, navigācija, galdiņi, mikrofons, 220V",
       detailed_description:
         "AC, DVD, CD, WC, virtuve, navigācija, galdiņi, mikrofons, barošanas spriegums 220V, RETARDER (kalnu bremzes). Garums: 13.020 m, salona augstums: 2.10 m, augstums: 3.65 m, vietu skaits: 53, attālums starp sēdekļiem: 73 cm, bākas tilpums: 450 l, degvielas patēriņš: 26-30 l/100 km.",
     },
     {
       busa_bilde: "/BusuBildes/Setra_515_HD_49.jpg",
       papildus_bilde: "/BudBildesPapildus/Setra_515_HD_Papildus.jpg",
-      title: "SETRA 515 HD, 49 pasažieru vietas",
-      description:
-        "AC, CD, DVD, WC, virtuve, ledusskapis, 220V, navigācija, galdiņi, mikrofons",
+      title: "Setra 515 HD, 49 pasažieru vietas",
       detailed_description:
         "AC, CD, DVD, WC, virtuve, ledusskapis, barošanas spriegums 220 volti, navigācija, galdiņi, mikrofons, RETARDER (kalnu bremzes). Garums: 12.295 m, salona augstums: 2.10 m, augstums: 3.77 m, vietu skaits: 49, attālums starp sēdekļiem: 71 cm, bākas tilpums: 470 l, degvielas patēriņš: 24-28 l/100 km.",
     },
@@ -52,8 +42,6 @@ function BusRent() {
       busa_bilde: "/BusuBildes/Setra_516_HD_53.JPG",
       papildus_bilde: "/BudBildesPapildus/Setra_516_HD_Papildus.jpg",
       title: "Setra 516 HD, 53 pasažieru vietas",
-      description:
-        "AC, CD, DVD, WC, virtuve, ledusskapis, 220V, navigācija, galdiņi, mikrofons",
       detailed_description:
         "AC, CD, DVD, WC, virtuve, ledusskapis, barošanas spriegums 220 volti, navigācija, galdiņi, mikrofons, RETARDER (kalnu bremzes). Garums: 12.295 m, salona augstums: 2.10 m, augstums: 3.77 m, vietu skaits: 53, attālums starp sēdekļiem: 71 cm, bākas tilpums: 470 l, degvielas patēriņš: 26-30 l/100 km.",
     },
@@ -61,7 +49,6 @@ function BusRent() {
       busa_bilde: "/BusuBildes/VW_Crafter.jpg",
       papildus_bilde: "/BudBildesPapildus/VW_Crafter_papildus.jpg",
       title: "VW Crafter, 19 pasažieru vietas",
-      description: "...",
       detailed_description: "...",
     },
   ];
@@ -115,7 +102,6 @@ function BusRent() {
               />
               <div className="carousel-caption d-none d-md-block">
                 <h5 className="busu-nosaukums">{bus.title}</h5>
-                <p className="busu-apraksts">{bus.description}</p>
               </div>
             </div>
           ))}
@@ -139,6 +125,7 @@ function BusRent() {
           <span className="carousel-control-next-icon"></span>
         </button>
       </div>
+      <h1 className="nomas-virsraksts_2">Autobusa apraksts</h1>
 
       <div className="card mb-3">
         <div className="row g-0">
